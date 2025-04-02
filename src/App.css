@@ -4,7 +4,9 @@
   text-align: center;
 }
 .item-img{
-  width:400px
+  width:400px;
+  height: 400px;
+  object-fit: contain;
 }
 .main{
   display: flex;
@@ -12,11 +14,33 @@
   gap: 10px;
   margin-top: 10px;
 }
+h1{
+  text-align: center;
+}
 button{
+  margin-top: 30px;
   border: none;
+  box-shadow: 0px 0px 10px #00000073;
   padding: 10px;
   border-radius: 10px;
-  background-color: green;
+  background-color: #fff;
   color:#fff;
   cursor: pointer;
+}
+button img{
+  width: 40px;
+  height: 100%;
+  object-fit: obtain;
+}
+.win{
+  border: 10px solid green; 
+  color: green;
+}
+.lose{
+  border: 10px solid red; 
+  color: red;
+}
+.tie{
+  border: 10px solid black; 
+  color: black;
 }
